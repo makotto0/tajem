@@ -1,0 +1,244 @@
+
+
+/*====================================================================
+============ Bootstrap 3 Media Queries for HEADER ====================
+====================================================================*/
+
+
+/*==================================================
+============== Mobile First Method =================
+=              Custom, iPhone Retina
+==================================================*/
+
+
+
+@media only screen and (min-width : 320px) {
+	.header{
+		padding: 50px 0 70px 0;
+		background-image: url("../images/main-bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+
+		.toggle_button_custom {
+			margin-top: 25px;
+			border: $brand-primary 2px solid;
+			background-color: transparent;
+
+			.toggle_icon_custom {
+				border: $brand-primary 1px solid;
+			}
+		}
+
+		&-menu{
+			float: right;
+			&-link{
+				display: block;
+				float: left;
+				padding-top: 17px;
+				padding-left: 10px;
+
+				a{
+					font-size: 16px;
+					text-transform: uppercase;
+					color: $brand-primary;
+					text-decoration: none;
+
+					&.active{
+						color: $brand-primary;
+					}
+				}
+			}
+		}
+
+		&-title{
+			padding-top: 70px;
+		}
+	}
+}
+
+
+/*==================================================
+=       Extra Small Devices, Portrait Phones       =
+==================================================*/
+
+
+@media only screen and (min-width : 480px) {
+	.header{
+		padding: 50px 0 70px 0;
+		background-image: url("../images/main-bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+
+		.toggle_button_custom {
+			margin-top: 25px;
+			border: $brand-primary 2px solid;
+			background-color: transparent;
+
+			.toggle_icon_custom {
+				border: $brand-primary 1px solid;
+			}
+		}
+
+		&-menu{
+			float: right;
+			&-link{
+
+				display: block;
+				float: left;
+				padding-left: 10px;
+
+				a{
+					font-size: 16px;
+					text-transform: uppercase;
+					color: $brand-primary;
+					text-decoration: none;
+
+					&.active{
+						color: $brand-primary;
+					}
+				}
+			}
+		}
+
+		&-title{
+			padding-top: 70px;
+		}
+	}
+}
+
+
+/*=================================================================================
+= Small Devices, Landscape Phones and Phablets, Portrait Tablets, Small Desktops =
+=================================================================================*/
+
+
+@media only screen and (min-width : 768px) {
+	.header{
+		padding: 30px 0 70px 0;
+		background-image: url("../images/main-bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+
+		&-menu{
+			float: right;
+			&-link{
+				display: block;
+				float: left;
+				padding-top: 17px;
+				padding-left: 10px;
+
+				a{
+					font-size: 16px;
+					text-transform: uppercase;
+					color: $color-secondary;
+					text-decoration: none;
+
+					&.active, &:hover{
+						color: $brand-primary;
+						background-color: transparent !important;
+						-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+						-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+						transition: background 0.3s linear 0s, color 0.3s linear 0s;
+					}
+				}
+			}
+		}
+
+		&-title{
+			padding-top: 150px;
+		}
+	}
+}
+
+
+/*======================================================
+= Medium Devices, Landscape Tablets, Laptops, Desktops =
+======================================================*/
+
+
+@media only screen and (min-width : 992px) {
+	.header{
+		padding: 30px 0 70px 0;
+		background-image: url("../images/main-bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+
+		&-menu{
+			float: right;
+			&-link{
+				display: block;
+				float: left;
+				padding-top: 17px;
+				padding-left: 20px;
+
+				a{
+					font-size: 16px;
+					text-transform: uppercase;
+					color: $color-secondary;
+					text-decoration: none;
+
+					&.active, &:hover{
+						color: $brand-primary;
+						background-color: transparent !important;
+						-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+						-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+						transition: background 0.3s linear 0s, color 0.3s linear 0s;
+					}
+				}
+			}
+		}
+
+		&-title{
+			padding-top: 150px;
+		}
+	}
+}
+
+
+/*==================================================
+=   Large Devices, Large Desktops, Wide Screens    =
+==================================================*/
+
+
+@media only screen and (min-width : 1200px) {
+	.header{
+		padding: 30px 0 70px 0;
+		background-image: url("../images/main-bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+
+		&-menu{
+			float: right;
+			&-link{
+				display: block;
+				float: left;
+				padding-top: 20px;
+				padding-left: 20px;
+
+				a{
+					font-size: 16px;
+					text-transform: uppercase;
+					color: $color-secondary;
+					text-decoration: none;
+
+					&.active, &:hover{
+						color: $brand-primary;
+						background-color: transparent !important;
+						-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+						-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+						transition: background 0.3s linear 0s, color 0.3s linear 0s;
+					}
+				}
+			}
+		}
+
+		&-title{
+			padding-top: 150px;
+		}
+	}
+}

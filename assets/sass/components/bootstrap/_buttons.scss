@@ -1,0 +1,12 @@
+.btn{
+	transition: all 0.2s linear;
+	font-weight: bold;
+	text-transform: uppercase;
+	&-default{
+		&:hover{
+			color: #fff;
+			background: $brand-primary;
+			border-color: $brand-primary;
+		}
+	}
+}

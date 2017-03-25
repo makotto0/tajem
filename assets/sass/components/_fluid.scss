@@ -1,0 +1,121 @@
+.box1 {
+	height: 198px;
+	background-color: #b6b6b6;
+}
+
+.box1:hover {
+	color: #e0e0e0;
+	background:  $brand-primary;
+	-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+.box2 {
+	height: 198px;
+	background-color: #acacac;
+}
+
+.box2:hover {
+	@extend .box1:hover;
+}
+
+.box3 {
+	height: 198px;
+	background-color: #a1a1a1;
+}
+
+.box3:hover {
+	@extend .box1:hover;
+}
+
+.box4 {
+	height: 198px;
+	background-color: #8a8a8a;
+}
+
+.box4:hover {
+	@extend .box1:hover;
+}
+
+.box5 {
+	height: 198px;
+	background-color: #b6b6b6;
+}
+
+.box5:hover {
+	@extend .box1:hover;
+}
+
+.box6 {
+	height: 198px;
+	background-color: #a4a4a4;
+}
+
+.box6:hover {
+	@extend .box1:hover;
+}
+
+.box7 {
+	height: 198px;
+	background-color: #a4a4a4;
+}
+
+.box7:hover {
+	@extend .box1:hover;
+}
+
+.box8 {
+	height: 198px;
+	background-color: #b6b6b6;
+}
+
+.box8:hover {
+	@extend .box1:hover;
+}
+
+.box9 {
+	height: 198px;
+	background-color: #8a8a8a;
+}
+
+.box9:hover {
+	@extend .box1:hover;
+}
+
+
+.box10 {
+	height: 198px;
+	background-color: #a1a1a1;
+}
+
+.box10:hover {
+	@extend .box1:hover;
+}
+
+
+.box11 {
+	height: 198px;
+	background-color: #acacac;
+}
+
+.box11:hover {
+	@extend .box1:hover;
+}
+
+
+.box12 {
+	height: 198px;
+	background-color: #b6b6b6;
+}
+
+.box12:hover {
+	@extend .box1:hover;
+}
+
+
+.modal_button {
+	text-align: center;
+	margin: 60px;
+}
+

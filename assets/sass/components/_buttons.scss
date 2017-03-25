@@ -1,0 +1,24 @@
+.btn{
+	&-light{
+		color: #ffffff;
+		border-color: #ffffff;
+		background: transparent;
+
+		&:hover{
+			background: #ffffff;
+			color: $brand-primary;
+			border-color: #ffffff;
+			-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+			-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+			transition: background 0.3s linear 0s, color 0.3s linear 0s;
+		}
+	}
+}
+
+.btn-primary:hover {
+	background-color: lighten($color-neutral, 50%);
+	border: 1px solid lighten($color-neutral, 50%);
+	-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}

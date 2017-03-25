@@ -1,0 +1,15 @@
+.spacer {
+	height: 50px;
+
+	@include respond-to(mobile) {
+		height: 30px;
+	}
+}
+
+.spacer-lg {
+	height: 160px;
+
+	@include respond-to(mobile) {
+		height: 60px;
+	}
+}

@@ -1,0 +1,25 @@
+.icon-box {
+	float: left;
+	width: 33.33%;
+	padding: 30px 15px;
+	min-height: 230px;
+	text-align: center;
+
+	@include respond-to(mobile) {
+		width: 100%;
+		border: none !important;
+	}
+
+	&-icon {
+		font-size: 25px;
+		color: $brand-primary;	
+	}
+
+	&--br {
+		border-right: 1px solid lighten($color-neutral, 50%);
+	}
+
+	&--bb {
+		border-bottom: 1px solid lighten($color-neutral, 50%);
+	}
+}

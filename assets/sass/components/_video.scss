@@ -1,0 +1,13 @@
+.quotes{
+	background-image: url("../images/video.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0 60px 0;
+
+	blockquote {
+		border-left: 2px solid $brand-primary;
+	}
+}
+
+

@@ -1,0 +1,95 @@
+.text{
+	&-light{
+		color: #ffffff;
+	}
+
+	&-separator{
+		position: relative;
+		&:after{
+			content: "";
+			display: block;
+			width: 50px;
+			height: 1px;
+			margin: auto;
+			background-color: $brand-primary;
+			margin-top: 30px;
+			margin-bottom: 35px;
+		}
+
+		&--light{
+			
+
+			&:after{
+				background-color: #ffffff;
+			}
+		}
+
+		&--neutral{
+			
+
+			&:after{
+				background-color: $color-neutral;
+			}
+		}
+
+		&--small{
+			width: 30px;
+		}
+	}
+}
+
+/*====================================================================
+============ Bootstrap 3 Media Queries for HEADER ====================
+====================================================================*/
+
+
+/*==================================================
+============== Mobile First Method =================
+=              Custom, iPhone Retina
+==================================================*/
+
+
+
+@media only screen and (min-width : 320px) {
+
+}
+
+
+/*==================================================
+=       Extra Small Devices, Portrait Phones       =
+==================================================*/
+
+
+@media only screen and (min-width : 480px) {
+
+}
+
+
+/*=================================================================================
+= Small Devices, Landscape Phones and Phablets, Portrait Tablets, Small Desktops =
+=================================================================================*/
+
+
+@media only screen and (min-width : 768px) {
+
+}
+
+
+/*======================================================
+= Medium Devices, Landscape Tablets, Laptops, Desktops =
+======================================================*/
+
+
+@media only screen and (min-width : 992px) {
+
+}
+
+
+/*==================================================
+=   Large Devices, Large Desktops, Wide Screens    =
+==================================================*/
+
+
+@media only screen and (min-width : 1200px) {
+
+}
