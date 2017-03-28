@@ -6246,7 +6246,8 @@ a:hover {
         width: 100%;
         display: block; } }
   .footer_items .socialmedia {
-    text-align: right; }
+    text-align: right;
+    margin-right: 25px; }
     .footer_items .socialmedia .footer-icon {
       margin-bottom: 35px;
       margin-left: 20px; }
